@@ -1,0 +1,65 @@
+2026-02-20 12:37:49.838  INFO --- [restartedMain] c.t.b.Batch15Application                 : Starting Batch15Application using Java 21.0.9 with PID 14040 (C:\Users\rajas\Downloads\batch15\batch15\target\classes started by rajas in C:\Users\rajas\Downloads\batch15\batch15)
+2026-02-20 12:37:49.855 DEBUG --- [restartedMain] c.t.b.Batch15Application                 : Running with Spring Boot v4.0.2, Spring v7.0.3
+2026-02-20 12:37:49.859  INFO --- [restartedMain] c.t.b.Batch15Application                 : The following 1 profile is active: "DEV"
+2026-02-20 12:37:49.982  INFO --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-02-20 12:37:49.983  INFO --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-02-20 12:37:51.908  INFO --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-02-20 12:37:52.128  INFO --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 204 ms. Found 7 JPA repository interfaces.
+2026-02-20 12:37:52.650  INFO --- [restartedMain] o.s.c.c.s.GenericScope                   : BeanFactory id=8a3059d2-be58-3681-b0b0-623b85ab9dc8
+2026-02-20 12:37:53.452  INFO --- [restartedMain] o.s.b.t.TomcatWebServer                  : Tomcat initialized with port 8080 (http)
+2026-02-20 12:37:53.474  INFO --- [restartedMain] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2026-02-20 12:37:53.477  INFO --- [restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2026-02-20 12:37:53.477  INFO --- [restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-02-20 12:37:53.554  INFO --- [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 3567 ms
+2026-02-20 12:37:53.990  INFO --- [restartedMain] o.h.o.jpa                                : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-02-20 12:37:54.083  INFO --- [restartedMain] o.h.o.core                               : HHH000001: Hibernate ORM core version 7.2.1.Final
+2026-02-20 12:37:54.792  INFO --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-02-20 12:37:54.838  INFO --- [restartedMain] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2026-02-20 12:37:55.250  INFO --- [restartedMain] c.z.h.p.HikariPool                       : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4e68a4d8
+2026-02-20 12:37:55.252  INFO --- [restartedMain] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2026-02-20 12:37:55.360  WARN --- [restartedMain] o.h.o.deprecation                        : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-02-20 12:37:55.405  INFO --- [restartedMain] o.h.o.c.pooling                          : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/springbatch15]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.45
+	Default catalog/schema: springbatch15/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-02-20 12:37:56.854  INFO --- [restartedMain] o.h.o.core                               : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-02-20 12:37:56.960  INFO --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-02-20 12:37:57.086  INFO --- [restartedMain] o.s.d.j.r.q.QueryEnhancerFactories       : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-02-20 12:37:58.875  WARN --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-02-20 12:37:59.921  INFO --- [restartedMain] o.s.b.h.a.H2ConsoleAutoConfiguration     : H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/springbatch15'
+2026-02-20 12:38:00.102  INFO --- [restartedMain] o.s.b.a.e.w.EndpointLinksResolver        : Exposing 14 endpoints beneath base path '/actuator'
+2026-02-20 12:38:00.222  INFO --- [restartedMain] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+2026-02-20 12:38:00.249  INFO --- [restartedMain] o.s.b.t.TomcatWebServer                  : Tomcat started on port 8080 (http) with context path '/'
+2026-02-20 12:38:00.267  INFO --- [restartedMain] c.t.b.Batch15Application                 : Started Batch15Application in 11.74 seconds (process running for 13.007)
+2026-02-20 12:38:00.370 DEBUG --- [restartedMain] c.t.b.Batch15Application                 : Debug Level
+2026-02-20 12:38:00.370  INFO --- [restartedMain] c.t.b.Batch15Application                 : Info Leve
+2026-02-20 12:38:00.371  WARN --- [restartedMain] c.t.b.Batch15Application                 : Warn Level
+2026-02-20 12:38:00.372 ERROR --- [restartedMain] c.t.b.Batch15Application                 : Error Level
+2026-02-20 12:38:00.372 FATAL --- [restartedMain] c.t.b.Batch15Application                 : Fatal Level
+2026-02-20 12:40:15.897  INFO --- [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-02-20 12:40:15.908  INFO --- [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2026-02-20 12:40:15.943  INFO --- [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Completed initialization in 35 ms
+2026-02-20 12:40:16.224  WARN --- [http-nio-8080-exec-1] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource product/getById/1 for request '/product/getById/1'.]
+2026-02-20 12:40:30.000  WARN --- [http-nio-8080-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource product/getById/1 for request '/product/getById/1'.]
+2026-02-20 12:40:37.561  WARN --- [http-nio-8080-exec-4] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource orders/placedOrder for request '/orders/placedOrder'.]
+2026-02-20 12:41:28.774  WARN --- [http-nio-8080-exec-6] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' is not supported]
+2026-02-20 12:48:27.996  WARN --- [HikariPool-1:housekeeper] c.z.h.p.HikariPool                       : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m2s357ms934µs900ns).
+2026-02-20 12:54:07.072  WARN --- [http-nio-8080-exec-1] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico for request '/favicon.ico'.]
+2026-02-20 12:55:08.740  WARN --- [http-nio-8080-exec-3] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource actuator/mapping for request '/actuator/mapping'.]
+2026-02-20 12:55:08.794  WARN --- [http-nio-8080-exec-4] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico for request '/favicon.ico'.]
+2026-02-20 12:55:22.778  WARN --- [http-nio-8080-exec-5] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource actuator/Mapping for request '/actuator/Mapping'.]
+2026-02-20 12:55:22.835  WARN --- [http-nio-8080-exec-6] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico for request '/favicon.ico'.]
+2026-02-20 13:00:21.140  WARN --- [HikariPool-1:housekeeper] c.z.h.p.HikariPool                       : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m16s210ms125µs).
+2026-02-20 13:56:42.711  WARN --- [HikariPool-1:housekeeper] c.z.h.p.HikariPool                       : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=52m51s464ms614µs600ns).
+2026-02-20 14:18:18.637  WARN --- [HikariPool-1:housekeeper] c.z.h.p.HikariPool                       : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=14m5s518ms306µs400ns).
+2026-02-20 14:23:40.191  WARN --- [HikariPool-1:housekeeper] c.z.h.p.HikariPool                       : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m21s330ms308µs500ns).
+2026-02-20 14:29:59.605  WARN --- [HikariPool-1:housekeeper] c.z.h.p.PoolBase                         : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@495e39f2 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2026-02-20 14:29:59.657  WARN --- [HikariPool-1:housekeeper] c.z.h.p.HikariPool                       : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=49s288ms765µs600ns).
