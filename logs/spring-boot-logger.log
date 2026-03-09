@@ -1,0 +1,46 @@
+2026-03-09 08:39:28.675  INFO --- [restartedMain] c.t.b.Batch15Application                 : Starting Batch15Application using Java 25.0.2 with PID 42168 (C:\SpringBoot-Project\batch15\target\classes started by rajas in C:\SpringBoot-Project)
+2026-03-09 08:39:28.685 DEBUG --- [restartedMain] c.t.b.Batch15Application                 : Running with Spring Boot v4.0.2, Spring v7.0.3
+2026-03-09 08:39:28.687  INFO --- [restartedMain] c.t.b.Batch15Application                 : The following 1 profile is active: "DEV"
+2026-03-09 08:39:28.767  INFO --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-03-09 08:39:28.768  INFO --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-03-09 08:39:34.807  INFO --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-09 08:39:35.293  INFO --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 468 ms. Found 15 JPA repository interfaces.
+2026-03-09 08:39:36.086  INFO --- [restartedMain] o.s.c.c.s.GenericScope                   : BeanFactory id=ce2eede4-e7e6-35fc-bc10-ff1b89e952cc
+2026-03-09 08:39:37.347  INFO --- [restartedMain] o.s.b.t.TomcatWebServer                  : Tomcat initialized with port 8080 (http)
+2026-03-09 08:39:37.378  INFO --- [restartedMain] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2026-03-09 08:39:37.382  INFO --- [restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2026-03-09 08:39:37.382  INFO --- [restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-03-09 08:39:37.517  INFO --- [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 8744 ms
+2026-03-09 08:39:38.199  INFO --- [restartedMain] o.h.o.jpa                                : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-03-09 08:39:38.348  INFO --- [restartedMain] o.h.o.core                               : HHH000001: Hibernate ORM core version 7.2.1.Final
+2026-03-09 08:39:39.358  INFO --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-09 08:39:39.433  INFO --- [restartedMain] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2026-03-09 08:39:40.556  INFO --- [restartedMain] c.z.h.p.HikariPool                       : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@69c0a538
+2026-03-09 08:39:40.558  INFO --- [restartedMain] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2026-03-09 08:39:40.699  WARN --- [restartedMain] o.h.o.deprecation                        : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-03-09 08:39:40.742  INFO --- [restartedMain] o.h.o.c.pooling                          : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/springbatch15]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.45
+	Default catalog/schema: springbatch15/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-03-09 08:39:43.666  INFO --- [restartedMain] o.h.o.core                               : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-03-09 08:39:43.937  INFO --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-09 08:39:44.184  INFO --- [restartedMain] o.s.d.j.r.q.QueryEnhancerFactories       : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-03-09 08:39:49.097  WARN --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-03-09 08:39:52.180  INFO --- [restartedMain] o.s.b.h.a.H2ConsoleAutoConfiguration     : H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/springbatch15'
+2026-03-09 08:39:52.696  INFO --- [restartedMain] o.s.b.a.e.w.EndpointLinksResolver        : Exposing 14 endpoints beneath base path '/actuator'
+2026-03-09 08:39:53.109  INFO --- [restartedMain] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+2026-03-09 08:39:53.192  INFO --- [restartedMain] o.s.b.t.TomcatWebServer                  : Tomcat started on port 8080 (http) with context path '/'
+2026-03-09 08:39:53.225  INFO --- [restartedMain] c.t.b.Batch15Application                 : Started Batch15Application in 28.159 seconds (process running for 31.077)
+2026-03-09 08:39:53.862 DEBUG --- [restartedMain] c.t.b.Batch15Application                 : Debug Level
+2026-03-09 08:39:53.863  INFO --- [restartedMain] c.t.b.Batch15Application                 : Info Leve
+2026-03-09 08:39:53.863  WARN --- [restartedMain] c.t.b.Batch15Application                 : Warn Level
+2026-03-09 08:39:53.865 ERROR --- [restartedMain] c.t.b.Batch15Application                 : Error Level
+2026-03-09 08:39:53.866 FATAL --- [restartedMain] c.t.b.Batch15Application                 : Fatal Level

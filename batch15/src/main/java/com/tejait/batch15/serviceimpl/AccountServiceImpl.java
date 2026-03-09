@@ -11,6 +11,8 @@ import com.tejait.batch15.service.AccountService;
 
 import lombok.AllArgsConstructor;
 import lombok.NoArgsConstructor;
+import org.springframework.stereotype.Service;
+
 @NoArgsConstructor
 @AllArgsConstructor
 //@Service
@@ -32,7 +34,7 @@ AccountRepository repository;
     @Override
 	public AccountResponseDto getByCustomerInfoByAccountId(Long id) {
 		Account account=repository.findById(id).get();
-		System.out.println("Account info :: "+account);
+		// System.out.println("Account info :: "+account);
 		AccountResponseDto dto=new AccountResponseDto();
 		dto.setAccountId(account.getAccountId());
 		dto.setAccountType(account.getAccountType());
